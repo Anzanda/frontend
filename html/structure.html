@@ -1,0 +1,29 @@
+<html>    
+    <head>
+        <title>[BOJ]백준1931 - 회의실 배정</title>
+        <meta charset="EUC-KR">
+    </head>
+    <body>
+        <h2>문제링크</h2>
+        Link: <a href="http://icpc.me/1931" target="_blank">http://icpc.me/1931</a>
+        
+        <h2>분류</h2>
+        <ul>
+            <li>Silver II</li>
+            <li>그리디, 정렬</li>
+        </ul>
+        
+        <h2>풀이</h2>
+        class3 풀던 중 푼 문제이다.
+        
+        예전에 지원이형이 보여줬던 이준원교수님 자구개 과제가 생각났다. linked list로 이어가2서 겹치지 않게 배열하는 문제인데, 느낌이 약간 비슷하2.
+        
+        이 문제는 회의 시작과 회의 끝나는 시간 두 개를 신경써야 하는데, 이런 문제들을 공략하는 방법은 하나를 고정하는 것이다. 백준2565번 - 전깃줄에서 이미 겪어봤던 아이디어라서 쉽게 떠올릴 수 있었다.
+        
+        그래서 나는 pair에 <시작, 끝>을 차례로 저장해놓고 priority_queue에 넣어 정렬을했다. 하고 나서 든 생각인데 vector에 넣고 2ort할 껄2그랬다. 이렇게하면 굳이 시간을 더 쓰는 꼴이다. (nlogn)
+        
+        그리고 조건을 나눴는데 회의시간을 넣을 때는 스택을 사용했다. 뭔가 잘 어울리는 자료구22
+
+        <button type="button">Click Me!</button>
+    </body>
+</html>

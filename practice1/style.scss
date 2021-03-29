@@ -1,0 +1,199 @@
+$black: #1f2d41;
+$white: #FFFFFF;
+$sky: #00cfd5;
+$gray: #6c757d;
+.header{
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    &__inner{
+        min-width: 992px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__profile{
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 1rem;
+    }   
+
+    &__name{
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    &__introduce{
+        white-space: pre-wrap;
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+}
+
+
+.horizontal{
+    margin: 1.25rem 0 1.5rem;//1.25rem 0 1.5rem;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: $sky;
+}
+
+.horizontal-line{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: $sky;
+    border-radius: 1rem;
+    border-color: $black;
+}
+
+
+.portfolio{
+    padding: 6rem 0;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: $sky;
+
+    &__inner{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &__header{
+        text-align: center;
+    }
+
+    &__introduceme{
+        font-size: 2.25rem;
+        line-height: 2rem;
+        color: $sky;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    &__body{
+        text-align: center;
+        font-size: 1.25rem;
+        color: $black;
+        
+    }
+    .horizontal{
+        margin-bottom:15px;
+    }
+}
+.about{
+    padding: 6rem 0;
+    background-color: $black;
+    color: $white;
+    margin-bottom: 0;
+
+    &__inner{
+        min-width: 992px;
+    }
+
+    &__header{
+        text-align: center;
+    }
+    
+    &__about{
+        font-size: 2.25rem;
+        line-height: 2rem;
+        display: inline-block;
+        color: $white;
+        margin-bottom: 0.5rem;
+    }
+    &__row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -1.5rem;
+        margin-left: -1.5rem;
+    }
+    &__main{
+        position: relative;
+        width: 100%;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+        &--left{
+            margin-left: auto;
+        }
+        &--right{
+            margin-right: auto;
+        }
+    }
+
+    &__intro{
+        white-space: pre-wrap;
+        font-size: 1.25rem;
+        font-weight: 300;   
+    }
+    .horizontal{
+        background-color: sky;
+        color:$white;
+    } 
+    .horizontal-line{
+        background-color: $white;
+    }
+}
+
+.contact{
+    padding: 6rem 0;
+    &__inner{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    &__header{
+        text-align: center;
+    }
+    &__contact{
+        font-size: 2.25rem;
+        line-height: 2rem;
+        display: inline-block;
+        color: $sky;
+    }
+    &__main{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -1.5rem;
+        margin-left: -1.5rem;
+        justify-content: center;
+        &--left{
+            position: relative;
+            width: 100%;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            flex: 0 0 33.3333333333%;
+            max-width: 33.3333333333%;
+        }
+        &--right{
+            position: relative;
+            width: 100%;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            flex: 0 0 33.3333333333%;
+            max-width: 33.3333333333%;
+        }
+    }
+    &__container{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__subtitle{
+        color: $gray !important;
+    }
+    &__content{
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+}

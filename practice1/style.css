@@ -1,0 +1,246 @@
+.header {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+  background-color: #1f2d41;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header__inner {
+  min-width: 992px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__profile {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.header__name {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.header__introduce {
+  white-space: pre-wrap;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.horizontal {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #00cfd5;
+}
+
+.horizontal-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #00cfd5;
+  border-radius: 1rem;
+  border-color: #1f2d41;
+}
+
+.portfolio {
+  padding: 6rem 0;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #00cfd5;
+}
+
+.portfolio__inner {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio__header {
+  text-align: center;
+}
+
+.portfolio__introduceme {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  color: #00cfd5;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.portfolio__body {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #1f2d41;
+}
+
+.portfolio .horizontal {
+  margin-bottom: 15px;
+}
+
+.about {
+  padding: 6rem 0;
+  background-color: #1f2d41;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.about__inner {
+  min-width: 992px;
+}
+
+.about__header {
+  text-align: center;
+}
+
+.about__about {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  display: inline-block;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+}
+
+.about__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+
+.about__main {
+  position: relative;
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333333333%;
+          flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.about__main--left {
+  margin-left: auto;
+}
+
+.about__main--right {
+  margin-right: auto;
+}
+
+.about__intro {
+  white-space: pre-wrap;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.about .horizontal {
+  background-color: sky;
+  color: #FFFFFF;
+}
+
+.about .horizontal-line {
+  background-color: #FFFFFF;
+}
+
+.contact {
+  padding: 6rem 0;
+}
+
+.contact__inner {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact__header {
+  text-align: center;
+}
+
+.contact__contact {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  display: inline-block;
+  color: #00cfd5;
+}
+
+.contact__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -1.5rem;
+  margin-left: -1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact__main--left {
+  position: relative;
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333333333%;
+          flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.contact__main--right {
+  position: relative;
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333333333%;
+          flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.contact__container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__subtitle {
+  color: #6c757d !important;
+}
+
+.contact__content {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
